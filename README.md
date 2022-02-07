@@ -34,6 +34,8 @@ Add below NuGet packages:
 
 The consumer connect to `amqp://guest:guest@localhost:5672`, and consume messages from `demo-queue` message queue and print the received message to the console. 
 
+The consumer code: [MQConsumer](https://github.com/xdevops-caj-dotnet/MQConsumer).
+
 ## Testing
 Launch consumer:
 ```bash
